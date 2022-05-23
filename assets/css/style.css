@@ -7,6 +7,9 @@ not to have any margin or border unless we explicitly tell it to. */
 
     padding: 0;
 
+    box-sizing: border-box;
+
+
 }
 
 /* apply style to the <body> */
@@ -84,5 +87,51 @@ header nav ul li a{
     font-weight: lighter;
 
     font-size: 22px;
+
+}
+
+/* apply styles to the <footer> */
+
+footer {
+
+    background: #fce138;
+
+    width: 100%;
+
+    padding: 40px 35px;
+
+}
+
+/* apply styles to the <footer> <h2> element */
+
+footer h2 {
+
+    display: inline;
+
+    color: #024e76;
+
+    font-size: 30px;
+
+    margin: 0;
+
+}
+
+/* apply styles to the <div> element */
+
+footer div {
+
+    float: right;
+
+    line-height: 1.5;
+
+    text-align: right;
+
+}
+
+/* apply styles to the <footer> <a> element */
+
+footer a {
+
+    color: #024e76;
 
 }
