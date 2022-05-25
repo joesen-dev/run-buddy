@@ -1,137 +1,72 @@
 /* we use the universal selector * to intruct every element on this page
 not to have any margin or border unless we explicitly tell it to. */
-
 * {
-
     margin: 0;
-
     padding: 0;
-
     box-sizing: border-box;
-
-
 }
 
 /* apply style to the <body> */
-
 body {
-
     /* more on this crazy alphanumerical value in a minute! */
-
     color: #39a6b2;
-
     font-family: Helvetica, Arial, sans-serif;
-
 }
 
 /* apply styles to <header> */
-
 header {
-
     padding: 20px 35px;
-
     background-color: #39a6b2;
-
 }
 
 /* apply styles to the <header>'s <h1> element*/
-
 header h1 {
-
     font-weight: bold;
-
     font-size: 36px;
-
     color: #fce138;
-
     margin: 0;
-
     display: inline;
-
 }
-
 /* apply styles to the <header>'s <a> element */
-
 header a {
-
     text-decoration: none;
-
     color: #fce138;
-
 }
-
 /* apply styles to the <header>'s <nav> element */
-
 header nav {
-
     float: right;
-
     margin: 7px 0;
-
 }
-
 /* apply styles to the <header> <nav> <ul> <li> elements */
-
 header nav ul li {
-
     display: inline;
-
 }
-
 /* apply styles to the <header> <nav> <ul> <li> <a> element */
-
 header nav ul li a{
-
     margin: 0 30px;
-
     font-weight: lighter;
-
     font-size: 22px;
-
 }
-
 /* apply styles to the <footer> */
-
 footer {
-
     background: #fce138;
-
     width: 100%;
-
     padding: 40px 35px;
-
 }
-
 /* apply styles to the <footer> <h2> element */
-
 footer h2 {
-
     display: inline;
-
     color: #024e76;
-
     font-size: 30px;
-
     margin: 0;
-
 }
-
 /* apply styles to the <div> element */
-
 footer div {
-
     float: right;
-
     line-height: 1.5;
-
     text-align: right;
-
 }
-
 /* apply styles to the <footer> <a> element */
-
 footer a {
-
     color: #024e76;
-
 }
