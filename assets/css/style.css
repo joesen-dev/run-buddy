@@ -15,8 +15,17 @@ body {
 
 /* apply styles to <header> */
 header {
-    padding: 20px 35px;
-    background-color: #39a6b2;
+  padding: 20px 35px;
+  background-color: #39a6b2;
+  background-image: url("../images/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
+  /* Make the Header "Sticky" */
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 /* apply styles to the <header>'s <h1> element*/
@@ -26,6 +35,8 @@ header h1 {
     color: #fce138;
     margin: 0;
     display: inline;
+     /* add shadows to the run buddy headings */
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 /* apply styles to the <header>'s <a> element */
 header a {
@@ -43,9 +54,17 @@ header nav ul li {
 }
 /* apply styles to the <header> <nav> <ul> <li> <a> element */
 header nav ul li a{
-    margin: 0 30px;
-    font-weight: lighter;
-    font-size: 22px;
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 22px;
+  /* add shadows to the run buddy headings */
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+/* Add Hover Effects to the Landing Page */
+header nav ul li a:hover{
+  background-color: #fce138;
+  color: #024e76;
+  border-radius: 15px;
 }
 /* apply styles to the <footer> */
 footer {
@@ -81,6 +100,8 @@ section {
   height: 600px;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
   position: relative;
 }
 /* Hero Style End */
@@ -98,11 +119,13 @@ section {
 }
 
 .hero-form {
-  background-color: #fce138;
+  background-color: rgba(252, 225, 56, 0.8);
   padding: 20px;
   width: 500px;
   color: #024e76;
-  border: solid 3px #024e76;  
+  border: solid 3px #024e76;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);  
 }
 
 .hero-form h3 {
@@ -115,21 +138,43 @@ section {
 }
 
 .hero-form label {
-    margin: 0 5px;
-  }
-
+  margin: 0 5px;
+ }
 .hero-form button {
-    margin-top: 5px;
-  }
-
+  margin-top: 5px;
+}
+.hero-form button:hover {
+  background-color: #39a6b2;
+}
 .hero-form button {
   background-color: #024e76;
   color: #fce138;
   font-size: 16px;
   border: none;
   padding: 10px 25px;
+  border-radius: 10px;
   }
 /* Hero-form Style end */
+.hero-cta h2 {
+   /* add shadows to the run buddy headings */
+   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.contact-form-button {
+  border-radius: 10px;
+}
+.contact-form button:hover {
+  color: #fce138;
+  background: #39a6b2;
+}
+
+.contact-form input, .contact-form textarea {
+  /* add a transparent background here */
+}
+
+/* create a new css rule for focus state */
+.contact-form input:focus, .contact-form textarea:focus {
+
+}
 
 /* Hero-form Style input field start*/
 .form-input {
@@ -140,6 +185,12 @@ section {
   color: #024e76;
   width: 100%;
   margin-bottom: 15px;
+  border-radius: 10px;
+  background-color: rgba(255,255,255, 0.75);
+}
+/* create a new rule for focus state */
+.form-input:focus {
+  background-color: rgba(255,255,255, 1);
+  outline: none;
 }
 /* Hero-form Style input field start*/
-
