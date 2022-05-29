@@ -119,6 +119,7 @@ section {
   color: #39a6b2;
   width: 80%;
   font-size: 20px;
+  margin: 0 auto;
 }
 .steps {
   text-align: center;
@@ -249,6 +250,27 @@ section {
    /* add shadows to the run buddy headings */
    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+/* Contact-form Style Start */
+.contact {
+  text-align: center;
+  background: #024e76;
+}
+.contact h2 {
+  font-size: 55px;
+  color: #fce138;
+}
+.contact-info div {
+  width: 410px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  margin: 30px 0 0 60px;
+  color: white;
+}
+.contact-info iframe {
+  width: 400px;
+  height: 400px;
+}
 .contact-form-button {
   border-radius: 10px;
 }
@@ -256,7 +278,6 @@ section {
   color: #fce138;
   background: #39a6b2;
 }
-
 .contact-form input, .contact-form textarea {
   /* add a transparent background here */
 }
