@@ -22,6 +22,9 @@ header {
   background-position: center;
   background-attachment: fixed;
   background-position: 80%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   /* Make the Header "Sticky" */
   position: -webkit-sticky;
   position: sticky;
@@ -34,7 +37,6 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
      /* add shadows to the run buddy headings */
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -45,7 +47,6 @@ header a {
 }
 /* apply styles to the <header>'s <nav> element */
 header nav {
-    float: right;
     margin: 7px 0;
 }
 /* apply styles to the <header> <nav> <ul> <li> elements */
